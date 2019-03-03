@@ -16,7 +16,7 @@ export default class Navbar extends Component {
                     https://www.iconfinder.com/Makoto_msk 
                 */}
 
-                <Link to="https://phonestorebysabbir.netlify.com/" >
+                <Link to="/" >
                     <img src={logo} alt="store" className="navbar-brand"/>
                 </Link>
                 <ul className="navbar-nav align-items-center">
@@ -27,7 +27,7 @@ export default class Navbar extends Component {
                     
                     </li>
                 </ul>
-                <Link to="https://phonestorebysabbir.netlify.com/cart" className="ml-auto">
+                <Link to="/cart" className="ml-auto">
                     <ButtonContainer>
                         <span className="mr-2">
                             <i className="fas fa-cart-plus"/>     

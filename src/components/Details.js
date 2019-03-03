@@ -42,7 +42,7 @@ export default class Details extends Component {
                       </p>
                       {/*buttons*/}
                       <div>
-                        <Link to ="https://phonestorebysabbir.netlify.com/">
+                        <Link to ="/">
                           <ButtonContainer>
                             back to products
                           </ButtonContainer>

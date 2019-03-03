@@ -24,12 +24,12 @@ export default class Modal extends Component {
                                     <img src={img} className="img-fluid" alt="product"/>
                                     <h5>{title}</h5>
                                     <h5 className="text-muted">price : $ {price}</h5>
-                                    <Link to='https://phonestorebysabbir.netlify.com/'>
+                                    <Link to='/'>
                                         <ButtonContainer onClick={() => closeModal()}>
                                             Continue Shopping
                                         </ButtonContainer>
                                     </Link>
-                                    <Link to='https://phonestorebysabbir.netlify.com/cart'>
+                                    <Link to='/cart'>
                                         <ButtonContainer cart onClick={() => closeModal()}>
                                             go to cart
                                         </ButtonContainer>
