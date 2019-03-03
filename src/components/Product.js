@@ -15,7 +15,7 @@ export default class Product extends Component {
                   <div className="img-container p-5" onClick={() => {
                     value.handleDetail(id);  
                      }} >
-                  <Link to="/details">
+                  <Link to="https://phonestorebysabbir.netlify.com/details">
                     <img src={img} alt="product" className="card-img-top"/>
                   </Link>
                   <button className="cart-btn" disabled={inCart ? true : false} onClick = {()=> {
