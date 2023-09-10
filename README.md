@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project has a live dem at: [https://phonestorebysabbir.netlify.app/](url)
+
+![image](https://github.com/sabbirahmed07/react-project-phone/assets/24037683/840241c3-e60b-4c81-81d8-4b5e03eb7387)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
